@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+
+<head>
+
+  <link rel="shortcut icon" href="./assets/images/icono.png" type="image/png">
+  <title>Cine Distrital</title>
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/media_query.css">
+
+  <!--
+    - google font link
+  -->
+  <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!--
+      - #HEADER SECTION
+    -->
+
+    <header class="">
+      <div class="navbar">
+
+        <!--
+          - menu button for small screen
+        -->
+        <button class="navbar-menu-btn">
+          <span class="one"></span>
+          <span class="two"></span>
+          <span class="three"></span>
+        </button>
+
+
+        <a href="#" class="navbar-brand">
+          <img src="./assets/images/logo.png" alt="">
+        </a>
+
+        <!--
+          - navbar navigationS
+        -->
+
+        <nav class="">
+          <ul class="navbar-nav">
+
+            <li> <a href="#cartelera" class="navbar-link">Cartelera</a> </li>
+            <li> <a href="#pronto" class="navbar-link">Pronto</a> </li>
+            <li> <a href="#comidas" class="navbar-link  indicator">Comidas</a> </li>
+
+          </ul>
+        </nav>
+
+        <!--
+          - search and sign-in
+        -->
+
+        <div class="navbar-actions">
+
+          <form action="#" class="navbar-form">
+            <input type="text" name="search" placeholder="Buscar" class="navbar-form-search">
+
+            <button class="navbar-form-btn">
+              <ion-icon name="search-outline"></ion-icon>
+            </button>
+
+            <button class="navbar-form-close">
+              <ion-icon name="close-circle-outline"></ion-icon>
+            </button>
+          </form>
+
+
+          <!--
+            - search button for small screen
+          -->
+
+          <button class="navbar-search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+          <a href="/cinedistrital/login.html" class="navbar-signin">
+            <span>Sign in</span>
+            <ion-icon name="log-in-outline"></ion-icon>
+          </a>
+
+        </div>
+
+      </div>
+    </header>
+
+
+
+
+
+    <!--
+      - MAIN SECTION
+    -->
+    <main>
+
+      <!--
+        - #BANNER SECTION
+      -->
+      <section class="banner">
+        <div class="banner-card">
+
+          <img src="./assets/images/John-Wick-3.jpg" class="banner-img" alt="">
+
+          <div class="card-content">
+            <div class="card-info">
+
+              <div class="genre">
+                <ion-icon name="film"></ion-icon>
+                <span>Action/Thriller</span>
+              </div>
+
+              <div class="duration">
+                <ion-icon name="time"></ion-icon>
+                <span>2h 11m</span>
+              </div>
+
+            </div>
+
+            <h2 class="card-title">John Wick: Chapter 3 - Parabellum</h2>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        - #MOVIES SECTION
+      -->
+      <section a name="cartelera" class="movies" id="cartelera">
+        <h2 class="section-cartelera">Cartelera</h2>
+
+      
+        <div class="movies-grid">
+
+          
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/shang-chi.jpg" alt="" class="card-img">
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Shang-Chi and The Legend of The Ten Rings</h3>
+
+              <div class="card-info">
+                <span class="genre">Action/Fantasy</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/casino-royale.jpg" alt="" class="card-img">
+
+            
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Casino Royale</h3>
+
+              <div class="card-info">
+                <span class="genre">Action/Adventure</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/dark-knight.jpg" alt="" class="card-img">
+
+              
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">The Dark Knight</h3>
+
+              <div class="card-info">
+                <span class="genre">Action/Adventure</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/panther.jpg" alt="" class="card-img">
+
+              
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Black Panther</h3>
+
+              <div class="card-info">
+                <span class="genre">Action/Adventure</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/venom.jpg" alt="" class="card-img">
+
+            
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Venom</h3>
+
+              <div class="card-info">
+                <span class="genre">Action/Adventure</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/LOTR.jpg" alt="" class="card-img">
+
+              
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Lord Of The Rings: Return Of The King</h3>
+
+              <div class="card-info">
+                <span class="genre">Fantasy/Adventure</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/saving-private-ryan.jpg" alt="" class="card-img">
+
+              
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Saving Private Ryan</h3>
+
+              <div class="card-info">
+                <span class="genre">War/Action</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/interstaller.jpg" alt="" class="card-img">
+
+              
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Interstellar</h3>
+
+              <div class="card-info">
+                <span class="genre">Sci-fi/Adventure</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/gladiator.jpg" alt="" class="card-img">
+
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Gladiator</h3>
+
+              <div class="card-info">
+                <span class="genre">Action/Adventure</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/endgame.jpg" alt="" class="card-img">
+
+              
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Avengers: Endgame</h3>
+
+              <div class="card-info">
+                <span class="genre">Action/Sci-fi</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/ww84.jpg" alt="" class="card-img">
+
+              
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Wonder Woman 1984</h3>
+
+              <div class="card-info">
+                <span class="genre">Action/Adventure</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/captain-marvel.jpg" alt="" class="card-img">
+
+            
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Captain Marvel</h3>
+
+              <div class="card-info">
+                <span class="genre">Action/Sci-fi</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!--
+          - load more button
+        -->
+      <br>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #CATEGORY SECTION
+      -->
+      <section a name="pronto" class="category" id="pronto">
+
+        <h2 class="section-pronto">Pronto</h2>
+
+        <div class="movies-grid">
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/red-notice.jpg" alt="" class="card-img">
+
+              
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Red Notice</h3>
+
+              <div class="card-info">
+                <span class="genre">Action/Comedy</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/spider-men.jpg" alt="" class="card-img">
+
+              
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Spider-Man: Homecoming</h3>
+
+              <div class="card-info">
+                <span class="genre">Action/Adventure</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/matrix.jpg" alt="" class="card-img">
+
+              
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">The Matrix Resurrections</h3>
+
+              <div class="card-info">
+                <span class="genre">Sci-fi/Action</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/eternals.jpg" alt="" class="card-img">
+
+              
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Eternals</h3>
+
+              <div class="card-info">
+                <span class="genre">Adventure/Action</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/dune.jpg" alt="" class="card-img">
+
+              
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">Dune</h3>
+
+              <div class="card-info">
+                <span class="genre">Sci-fi/Adventure</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="movie-card">
+
+            <div class="card-head">
+              <img src="./assets/images/movies/1917.jpg" alt="" class="card-img">
+
+              
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title">1917</h3>
+
+              <div class="card-info">
+                <span class="genre">War/Drama</span>
+              </div>
+            </div>
+
+          </div>
+
+          
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #LIVE SECTION
+      -->
+      <section a name="comidas" class="" id="comidas">
+        <h2 class="section-comidas">Comidas</h2>
+        <div class="container-comidas">
+          <div class="grid-comidas">
+            
+            <div class="card-comidas">
+              <img src="./assets/images/combo1.jpg" alt="Combo1" style="width:100%" class="card-img">
+              <h1>Combo 1</h1>
+              <p class="price">$45.000</p>
+              <p>2 Hamburguesas, porcion de papas y aritos de cebolla.</p>
+              <p><button class="load-more">Añadir</button></p>
+            </div>
+           
+            <div class="card-comidas">
+              <img src="https://png.pngtree.com/png-clipart/20230213/ourmid/pngtree-round-pizza-slice-realistic-fast-food-concept-png-image_6596848.png" alt="Combo1" style="width:100%">
+              <h1>Combo 2</h1>
+              <p class="price">$28.000</p>
+              <p>1 Pizza familiar, acompañada de palitos de queso.</p>
+              <p><button class="load-more">Añadir</button></p>
+            </div>
+
+            <div class="card-comidas">
+              <img src="https://png.pngtree.com/png-clipart/20211010/original/pngtree-boiled-egg-still-life-fast-food-baking-photography-png-image_6850625.png" alt="Combo1" style="width:100%">
+              <h1>Combo 3</h1>
+              <p class="price">$11.000</p>
+              <p>Unos deliciosos huevos cocinados.</p>
+              <p><button class="load-more">Añadir</button></p>
+            </div>
+
+            <div class="card-comidas">
+              <img src="https://png.pngtree.com/png-clipart/20210308/original/pngtree-fast-food-fried-food-chicken-drumstick-png-image_5746680.jpg" alt="Combo1" style="width:100%">
+              <h1>Combo 4</h1>
+              <p class="price">$25.000</p>
+              <p>1/2 pollo broster acompañado de nuggets.</p>
+              <p><button class="load-more">Añadir</button></p>
+            </div>
+            <div class="card-comidas">
+              <img src="https://png.pngtree.com/png-clipart/20230423/original/pngtree-hot-dog-grill-with-mustard-isolated-png-image_9080663.png" alt="Combo1" style="width:100%">
+              <h1>Combo 5</h1>
+              <p class="price">$15.000</p>
+              <p>1 perro caliente con salchicha americana.</p>
+              <p><button class="load-more">Añadir</button></p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+
+
+
+
+    <!--
+      - FOOTER SECTION
+    -->
+    <footer>
+
+      <div class="footer-content">
+
+        <div class="footer-brand">
+          <img src="./assets/images/logo.png" alt="" class="footer-logo">
+
+
+
+          <div class="social-link">
+
+            <a href="#">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a href="#">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            <a href="#">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="#">
+              <ion-icon name="logo-tiktok"></ion-icon>
+            </a>
+            <a href="#">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+
+          </div>
+        </div>
+
+
+       
+
+      </div>
+
+      <div class="footer-copyright">
+
+        <div class="copyright">
+          <p>&copy; copyright 2023 CineDistrital</p>
+        </div>
+
+
+      </div>
+
+    </footer>
+
+  </div>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/main.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
